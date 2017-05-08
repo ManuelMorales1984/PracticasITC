@@ -4,4 +4,24 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ServletAlex</servlet-name>
+  	<display-name>ServletAlex</display-name>
+  	<description></description>
+  	<servlet-class>main.webapp.ServletAlex</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletAlex1</servlet-name>
+  	<display-name>ServletAlex1</display-name>
+  	<description></description>
+  	<servlet-class>Codigo.ServletAlex</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ServletAlex</servlet-name>
+  	<url-pattern>/ServletAlex</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletAlex1</servlet-name>
+  	<url-pattern>/ServletAlex1</url-pattern>
+  </servlet-mapping>
 </web-app>
